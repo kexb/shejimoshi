@@ -13,7 +13,7 @@ public class SingletonTest01 {
 
 }
 
-//饿汉式(静态变量)
+//饿汉式(静态变量) 
 
 class Singleton {
 	
