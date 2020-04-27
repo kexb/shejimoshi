@@ -1,5 +1,5 @@
 package com.atguigu.adapter.classadapter;
-
+//kxb
 public class Client {
 
 	public static void main(String[] args) {
