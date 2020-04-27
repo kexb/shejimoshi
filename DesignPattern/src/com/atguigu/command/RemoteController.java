@@ -37,7 +37,7 @@ public class RemoteController {
 
 	}
 
-	// 按下开按钮
+	// 按下关按钮
 	public void offButtonWasPushed(int no) { // no 0
 		// 找到你按下的关的按钮， 并调用对应方法
 		offCommands[no].execute();

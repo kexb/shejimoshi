@@ -5,13 +5,13 @@ public class Fail extends Action {
 	@Override
 	public void getManResult(Man man) {
 		// TODO Auto-generated method stub
-		System.out.println(" 男人给的评价该歌手失败 !");
+		System.out.println(String.format(" 男人 %s给的评价该歌手失败 !",man.getName()));
 	}
 
 	@Override
 	public void getWomanResult(Woman woman) {
 		// TODO Auto-generated method stub
-		System.out.println(" 女人给的评价该歌手失败 !");
+		System.out.println(String.format(" 女人 %s给的评价该歌手失败 !",woman.getName()));
 	}
 
 }

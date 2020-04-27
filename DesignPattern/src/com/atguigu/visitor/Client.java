@@ -6,9 +6,13 @@ public class Client {
 		// TODO Auto-generated method stub
 		//创建ObjectStructure
 		ObjectStructure objectStructure = new ObjectStructure();
-		
-		objectStructure.attach(new Man());
-		objectStructure.attach(new Woman());
+
+        Man m = new Man();
+        Woman w = new Woman();
+        m.setName("张无忌");
+        w.setName("赵敏");
+        objectStructure.attach(m);
+        objectStructure.attach(w);
 		
 		
 		//成功
