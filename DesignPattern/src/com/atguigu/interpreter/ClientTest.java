@@ -26,7 +26,7 @@ public class ClientTest {
 		HashMap<String, Integer> map = new HashMap<>();
 
 		for (char ch : expStr.toCharArray()) {
-			if (ch != '+' && ch != '-') {
+			if (ch != '+' && ch != '-'&&ch!='*'&&ch!='/') {
 				if (!map.containsKey(String.valueOf(ch))) {
 					System.out.print("«Î ‰»Î" + String.valueOf(ch) + "µƒ÷µ£∫");
 					String in = (new BufferedReader(new InputStreamReader(System.in))).readLine();
