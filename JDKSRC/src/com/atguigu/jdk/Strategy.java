@@ -49,13 +49,16 @@ public class Strategy {
 		//方式2- 同时lambda 表达式实现 策略模式
 		Integer[] data2 = { 19, 11, 12, 18, 14, 13 };
 		
-		Arrays.sort(data2, (var1, var2) -> {
-			if(var1.compareTo(var2) > 0) {
-				return -1;
-			} else {
-				return 1;
-			}
-		});
+		Arrays.sort(data2, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer var1, Integer var2) {
+                if (var1.compareTo(var2) > 0) {
+                    return -1;
+                } else {
+                    return 1;
+                }
+            }
+        });
 		
 		System.out.println("data2=" + Arrays.toString(data2));
 		
