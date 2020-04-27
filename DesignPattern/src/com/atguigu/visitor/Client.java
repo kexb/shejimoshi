@@ -2,6 +2,7 @@ package com.atguigu.visitor;
 
 public class Client {
 
+    //访问者模式 被访问者通过accept(action)方法可以扩展自己对状态的处理
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//创建ObjectStructure
